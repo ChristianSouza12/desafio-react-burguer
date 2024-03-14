@@ -8,12 +8,12 @@ import { useNavigate } from "react-router-dom";
 function Orders() {
   const [orders, setOrders] = useState([]);
   const navigate = useNavigate()
- 
+ const baseUrl = "https://desafio-node-hamburguer-j3hr.vercel.app"
 
   useEffect(() => {
     async function fetchOrders() {
       try {
-        const response = await axios.get("http://localhost:3001/order");
+        const response = await axios.get(`${baseUrl}/order`);
         setOrders(response.data);
       } catch (error) {
         console.error("Error fetching orders:", error);
@@ -24,7 +24,7 @@ function Orders() {
 
   async function deleteOrder(orderId) {
     try {
-      await axios.delete(`http://localhost:3001/order/${orderId}`);
+      await axios.delete(`${baseUrl}/order/${orderId}`);
       setOrders(orders.filter(order => order.id !== orderId));
     } catch (error) {
       console.error("Error deleting order:", error);
