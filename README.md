@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+<h1>Aplicativo de Gerenciamento de Pedidos</h1>
+<p>Este é um aplicativo web simples desenvolvido com React.js para gerenciar pedidos. Ele permite que os usuários criem novos pedidos fornecendo detalhes do pedido e nomes dos clientes. Após criar um novo pedido, os usuários são redirecionados para a página de pedidos, onde podem visualizar todos os pedidos cadastrados.</p>
+    <h2>Funcionalidades Principais:</h2>
+    <ol>
+        <li><strong>Adição de Novos Pedidos:</strong> Os usuários podem adicionar novos pedidos inserindo os detalhes do pedido e o nome do cliente.</li>
+        <li><strong>Visualização de Pedidos:</strong> Os pedidos adicionados são exibidos na página de pedidos, permitindo aos usuários ver todos os pedidos registrados.</li>
+    </ol>
+    <h2>Como Utilizar:</h2>
+    <ol>
+        <li><strong>Adicionar Novo Pedido:</strong>
+            <ul>
+                <li>Na página inicial, preencha o campo "Pedido" com os detalhes do pedido desejado.</li>
+                <li>Em seguida, insira o nome do cliente no campo "Nome do Cliente".</li>
+                <li>Clique no botão "Novo Pedido" para adicionar o pedido.</li>
+                <li>Se os campos não estiverem preenchidos, será exibido um alerta solicitando que o usuário preencha ambos antes de adicionar o pedido.</li>
+            </ul>
+        </li>
+        <li><strong>Visualizar Pedidos:</strong>
+            <ul>
+                <li>Após adicionar um novo pedido, os usuários são redirecionados automaticamente para a página de pedidos.</li>
+                <li>Nessa página, todos os pedidos registrados são exibidos, mostrando os detalhes do pedido e o nome do cliente.</li>
+            </ul>
+        </li>
+    </ol>
+    <h2>Tecnologias Utilizadas:</h2>
+    <ul>
+        <li><strong>React.js:</strong> Framework JavaScript para construção de interfaces de usuário.</li>
+        <li><strong>Axios:</strong> Biblioteca para fazer requisições HTTP.</li>
+        <li><strong>React Router:</strong> Biblioteca para roteamento no React.</li>
+        <li><strong>Styled Components:</strong> Biblioteca para estilização de componentes React.</li>
+    </ul>
+    <h2>Como Executar o Projeto:</h2>
+  <ol>
+        <li>Clone o repositório do projeto.</li>
+        <li>No diretório do projeto, execute <code>npm install</code> para instalar as dependências.</li>
+        <li>Após a instalação das dependências, execute <code>npm start</code> para iniciar o servidor de desenvolvimento.</li>
+        <li>Abra o navegador e acesse <code>http://localhost:3000</code> para visualizar o aplicativo.</li>
+    </ol>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
